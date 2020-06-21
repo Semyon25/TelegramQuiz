@@ -1,0 +1,648 @@
+﻿<quiz>
+	<items>
+		<item>
+			<id>1</id>
+			<question>Мой ежемесячный доход:</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>от 0 до 10 000 руб</text>
+					<point>0</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>от 10 000 до 20 000 руб</text>
+					<point>1</point>
+				</answer>
+				<answer>
+					<id>2</id>
+					<text>от 20 000 до 50 000 руб</text>
+					<point>2</point>
+				</answer>
+				<answer>
+					<id>3</id>
+					<text>от 50 000 до 100 000 руб</text>
+					<point>4</point>
+				</answer>
+				<answer>
+					<id>4</id>
+					<text>от 100 000 до 200 000 руб</text>
+					<point>8</point>
+				</answer>
+				<answer>
+					<id>5</id>
+					<text>от 200 000 до 400 000 руб</text>
+					<point>12</point>
+				</answer>
+				<answer>
+					<id>6</id>
+					<text>от 400 000 до 800 000 руб</text>
+					<point>17</point>
+				</answer>
+				<answer>
+					<id>7</id>
+					<text>от 800 000 руб</text>
+					<point>24</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>2</id>
+			<question>Я работаю наемным сотрудником</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>3</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>3</id>
+			<question>У меня руководящая должность</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>4</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>4</id>
+			<question>Я работаю сам на себя (подработки, фриланс)</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>4</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>5</id>
+			<question>У меня есть свой бизнес:</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>с кол-вом человек 1-10</text>
+					<point>6</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>с кол-вом человек 11-50</text>
+					<point>8</point>
+				</answer>
+				<answer>
+					<id>2</id>
+					<text>c кол-вом человек 51-100</text>
+					<point>12</point>
+				</answer>
+				<answer>
+					<id>3</id>
+					<text>с кол-вом человек более 100</text>
+					<point>16</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>6</id>
+			<question>У меня есть доходы от инвестиций (вкладов и пр)</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>2</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>7</id>
+			<question>Я пользуюсь социальными выплатами 
+(льготы, субсидии, вычеты)</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>2</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>8</id>
+			<question>Мои расходы больше доходов</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>-5</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>9</id>
+			<question>Мои расходы примерно равны доходам</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>0</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>10</id>
+			<question>У меня всегда хватает денег на отпуск или 
+крупную покупку</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>4</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>11</id>
+			<question>Я откладываю:</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>около 5% от своих доходов</text>
+					<point>1</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>10% от своих доходов</text>
+					<point>3</point>
+				</answer>
+				<answer>
+					<id>2</id>
+					<text>20% от своих доходов</text>
+					<point>7</point>
+				</answer>
+				<answer>
+					<id>3</id>
+					<text>30% от своих доходов</text>
+					<point>10</point>
+				</answer>
+				<answer>
+					<id>4</id>
+					<text>Более 30%</text>
+					<point>16</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>12</id>
+			<question>Я откладываю деньги в копилку</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>0</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>13</id>
+			<question>Сумма моих накоплений:</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>менее месячного дохода</text>
+					<point>1</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>примерно 1-2 месячных доходов</text>
+					<point>3</point>
+				</answer>
+				<answer>
+					<id>2</id>
+					<text>примерно 3-5 месячных доходов</text>
+					<point>6</point>
+				</answer>
+				<answer>
+					<id>3</id>
+					<text>Более 6 месячных доходов</text>
+					<point>12</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>14</id>
+			<question>Я вкладываю накопления в банк или иное:</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>под 5-8% год</text>
+					<point>2</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>около 12% годовых</text>
+					<point>4</point>
+				</answer>
+				<answer>
+					<id>2</id>
+					<text>около 20-30% годовых</text>
+					<point>8</point>
+				</answer>
+				<answer>
+					<id>3</id>
+					<text>около 50% годовых</text>
+					<point>16</point>
+				</answer>
+				<answer>
+					<id>4</id>
+					<text>около 100% годовых и более</text>
+					<point>25</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>15</id>
+			<question>Мой пассивный доход превышает 
+общую сумму расходов</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>25</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>16</id>
+			<question>У меня есть недвижимость, которую 
+я сдаю в аренду</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>6</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>17</id>
+			<question>У меня есть потребительские кредиты</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>-4</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>18</id>
+			<question>У меня есть активные кредитные карточки</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>-4</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>19</id>
+			<question>У меня есть частные займы (под%)</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>-8</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>20</id>
+			<question>У меня есть займы/долги (без%)</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>-1</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>21</id>
+			<question>У меня есть ипотечный кредит</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>-4</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>22</id>
+			<question>Я занимаюсь благотворительностью</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>2</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>23</id>
+			<question>Я веду строгий финансовый учет доходов 
+ и расходов</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>4</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>24</id>
+			<question>У меня есть бюджет на 1 месяц вперед</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>2</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>25</id>
+			<question>У меня есть бюджет на 1 год</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>5</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>26</id>
+			<question>У меня есть финансовый план на 3-10 лет вперед</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>8</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>27</id>
+			<question>У меня есть список финансовых целей, 
+с ценами и сроками</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>2</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>28</id>
+			<question>В моих планах и бюджетах учтены инвестиции</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>5</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>29</id>
+			<question>Я считаю деньги очень важной темой 
+для своей жизни</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>5</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>30</id>
+			<question>Я читаю книги по личным финансам</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>2</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>31</id>
+			<question>Я хожу на бесплатные семинары по 
+личным финансам</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>4</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>32</id>
+			<question>Я хожу на платные тренинги по личным финансам</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>15</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+		<item>
+			<id>33</id>
+			<question>Я играл в «Денежный Поток», или 
+«Монополию» или т.п.</question>
+			<answers>
+				<answer>
+					<id>0</id>
+					<text>Да</text>
+					<point>3</point>
+				</answer>
+				<answer>
+					<id>1</id>
+					<text>Нет</text>
+					<point>0</point>
+				</answer>
+			</answers>
+		</item>
+	</items>
+	<results>
+		<result>
+			<min>0</min>
+			<max>40</max>
+			<title>ФИНАНСОВЫЙ IQ – ОБЫЧНЫЙ, НИЗКИЙ</title>
+			<description>Деньги владеют вами больше, чем вы – деньгами. Финансы с трудом поддаются управлению, либо финансовая сторона жизни вас мало интересует. Вероятны периодические и повторяющиеся финансовые проблемы. Если не уделять деньгам должного внимания – они могут сыграть с вами злую шутку. К сожалению, это является обычным делом. Это связано с тем, что нас не учат деньгам нигде: ни в школе, ни в институте – нигде нас не учат деньгам. Мы все - финансовые самоучки. Я не рекомендую инвестировать, если у вас финансовый IQ до 40 балов, до тех пор, пока вы финансовый IQ не выведете хотя бы больше 40. Это просто может быть опасно инвестировать.</description>
+		</result>
+		<result>
+			<min>41</min>
+			<max>80</max>
+			<title>ФИНАНСОВЫЙ IQ – СРЕДНИЙ</title>
+			<description>Вы уже начинаете осваиваться с денежными задачами. Деньги мягко поддаются управлению, вы можете влиять на доходы и расходы. Вам интересны новые финансовые перспективы, и вы готовы их использовать. Если вам немного добавить знаний и действий – вы можете достаточно быстро перейти на следующий финансовый уровень! Этот уровень финансового IQ говорит о том, что деньги уже вам поддаются, уже управляемыми деньги становятся. С этой позиции уже можно инвестировать, но крайне-крайне осторожно! Я бы рекомендовал на это уровне заниматься простейшим инвестированием.</description>
+		</result>
+		<result>
+			<min>81</min>
+			<max>140</max>
+			<title>ФИНАНСОВЫЙ IQ – ВЫСОКИЙ</title>
+			<description>Вы уверенно управляете своими деньгами, знаете и используете Законы Денег себе во благо и в карман. У вас выработана определенная финансовая стратегия, и в ближайшем будущем возможен качественный и количественный финансовый рост. Вам осталось только дисциплинированно реализовывать свои финансовые планы и скоро вы перейдете в уровень финансовой независимости и свободы! Здесь уже такой интересный уровень, когда финансы (деньги) не являются проблемой. Деньги являются задачей! Итак, например, задача: в этом месяце заработать 3000. Или задача: инвестировать очередной миллион рублей. Деньги, как правило, это задача. Здесь уже можно повышать уровень риска. Что самое интересно, именно здесь, потому что дальше при большем финансовом IQ его наоборот нужно снижать. Это тот самый диапазон, когда можно пробовать различные стратегии, можно рисковать. Почему можно рисковать? – Потому что этот уровень означает то, что деньги у вас есть, и, соответственно, риски, которые вы несете в инвестициях, уже перестрахованы теми деньгами, которые вы зарабатываете.</description>
+		</result>
+		<result>
+			<min>141</min>
+			<max>200</max>
+			<title>ФИНАНСОВЫЙ IQ ОЧЕНЬ ВЫСОКИЙ – ВАС МОЖНО НАЗВАТЬ БОГАТЫМ</title>
+			<description>Вас можно поздравить! Вы с деньгами на ТЫ, деньги работают на вас, приносят вам радость и удовольствие, Как правило, ваши доходы намного превышают ваши расходы, и вам остается только грамотно настроить свой инвестиционный портфель, чтобы богатство стабильно росло и множилось! Деньги здесь не являются ни проблемой, ни задачей. Деньги - это атрибут. Они вообще есть. НО! Здесь инвестиции требуют очень тщательного контроля. Если, например, на позиции, когда до 141 в инвестиции еще можно было рисковать, то на этом уровне уже инвестиции более консервативные. Хотя они могут быть прибыльными. Они могут приносить и 100% годовых, и выше. Но уровень контроля здесь должен быть очень высокий. Зачем это нужно? – Чтобы не слиться в обратную сторону. Здесь ситуация, несмотря на свою кажущуюся «вау, жизнь удалась», на самом деле еще шаткая! Может запросто уйти и в обратную сторону.</description>
+		</result>
+	</results>
+</quiz>
+
